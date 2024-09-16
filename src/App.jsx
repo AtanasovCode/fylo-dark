@@ -3,6 +3,7 @@
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import FeaturesGrid from "./components/FeaturesGrid";
+import Info from "./components/Info";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navigation />
       <Hero />
       <FeaturesGrid />
+      <Info />
     </div>
   );
 }

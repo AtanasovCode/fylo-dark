@@ -9,7 +9,7 @@ import Feature from "./Feature";
 
 const FeaturesGrid = () => {
     return (
-        <div className="grid grid-cols-1 gap-16 items-center justify-items-center md:grid-cols-2 lg:w-[60%]">
+        <div className="grid grid-cols-1 gap-16 items-center justify-items-center mb-20 md:grid-cols-2 lg:w-[60%]">
             <Feature
                 icon={feature1}
                 title="Access your files, anywhere"
