@@ -9,12 +9,14 @@ const Quote = ({
     showQuote,
 }) => {
     return (
-        <div className="p-8 relative flex flex-col items-start justify-center bg-dark-blue-testimonials text-white mb-8">
-            <div className={`${showQuote ? "absolute -top-[9%] left-4" : "hidden"}`}>
+        <div className="p-8 relative flex flex-1 flex-col items-start justify-center bg-dark-blue-testimonials text-white mb-8 rounded-md z-10
+        lg:mb-0 lg:mx-2 lg:p-12 xl:mx-5
+        ">
+            <div className={`${showQuote ? "absolute -top-[9%] left-4 lg:-left-2 lg:-top-[7%] lg:z-0" : "hidden"}`}>
                 <img 
                     src={icon}
                     alt="decorative quote icon"
-                    className="w-6"
+                    className="w-6 lg:w-14 lg:z-0"
                 />
             </div>
             <div className="text-gray-300 mb-6">
