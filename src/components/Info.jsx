@@ -3,7 +3,7 @@ import iconArrow from '../assets/images/icon-arrow.svg';
 
 const Info = () => {
     return (
-        <div className="flex flex-col items-center justify-center text-white">
+        <div className="flex flex-col items-center justify-center text-white xs:w-[70%] lg:flex-row lg:w-[80%]">
             <div className="w-full flex items-center justify-center mb-12">
                 <img
                     src={illustration}
@@ -12,7 +12,7 @@ const Info = () => {
                 />
             </div>
             <div className="flex flex-col items-start justify-center">
-                <div className="font-bold text-3xl mb-8">
+                <div className="font-bold text-3xl mb-8 lg:mb-4 lg:text-4xl">
                     Stay productive, wherever you are
                 </div>
                 <div className="flex flex-col text-sm text-gray-300 mb-6">
@@ -25,7 +25,7 @@ const Info = () => {
                         attachments required.
                     </div>
                 </div>
-                <div className="border-b-2 border-solid border-cyan flex items-center justify-center">
+                <div className="border-b-2 border-solid border-cyan pb-1 flex items-center justify-center text-blue">
                     See how Fylo works
                     <div className="flex items-center justify-center ml-2 w-4">
                         <img 
