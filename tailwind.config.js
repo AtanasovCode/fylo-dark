@@ -20,6 +20,9 @@ export default {
         'font-open': "Open Sans",
         'font-raleway': "Raleway",
       },
+      screens: {
+        'xs': "550px"
+      }
     },
   },
   plugins: [],
