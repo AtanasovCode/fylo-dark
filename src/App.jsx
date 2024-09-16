@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Info from "./components/Info";
+import QuotesSection from "./components/QuotesSection";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <FeaturesGrid />
       <Info />
+      <QuotesSection />
     </div>
   );
 }

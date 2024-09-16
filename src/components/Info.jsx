@@ -3,7 +3,7 @@ import iconArrow from '../assets/images/icon-arrow.svg';
 
 const Info = () => {
     return (
-        <div className="flex flex-col items-center justify-center text-white xs:w-[70%] lg:flex-row lg:w-[80%]">
+        <div className="flex flex-col items-center justify-center text-white mb-20 xs:w-[70%] lg:flex-row lg:w-[80%]">
             <div className="w-full flex items-center justify-center mb-12">
                 <img
                     src={illustration}
