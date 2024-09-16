@@ -12,7 +12,7 @@ import quoteIcon from '../assets/images/bg-quotes.png'
 
 const QuotesSection = () => {
     return (
-        <div className="flex flex-col items-center justify-center lg:flex-row md:w-[70%] lg:w-[100%] lg:flex-row">
+        <div className="flex flex-col items-center justify-center lg:flex-row mb-20 md:w-[70%] lg:w-[100%]">
             <Quote
                 name="Satish Patel"
                 quote="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."

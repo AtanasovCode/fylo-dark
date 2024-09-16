@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Info from "./components/Info";
 import QuotesSection from "./components/QuotesSection";
+import MailPrompt from "./components/MailPrompt";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <FeaturesGrid />
       <Info />
       <QuotesSection />
+      <MailPrompt />
     </div>
   );
 }
