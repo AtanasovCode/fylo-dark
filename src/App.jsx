@@ -6,6 +6,7 @@ import FeaturesGrid from "./components/FeaturesGrid";
 import Info from "./components/Info";
 import QuotesSection from "./components/QuotesSection";
 import MailPrompt from "./components/MailPrompt";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Info />
       <QuotesSection />
       <MailPrompt />
+      <Footer />
     </div>
   );
 }
