@@ -10,53 +10,58 @@ import FooterSocials from './FooterSocials';
 
 const Footer = () => {
     return (
-        <div className="w-full p-4 flex flex-col items-center justify-center bg-dark-blue-footer text-white">
-            <div className="w-full flex flex-col items-start justify-center">
-                <div className="flex items-center justify-center w-22 mb-12">
-                    <img
-                        src={logo}
-                        alt="logo"
-                        className="w-full"
+        <div className="w-full p-4 flex flex-col items-center justify-center bg-dark-blue-footer text-white
+        md:p-6 lg:p-8
+        ">
+            <div className="w-full flex items-center justify-start w-22 mb-12 xs:justify-center lg:justify-start">
+                <img
+                    src={logo}
+                    alt="logo"
+                    className="w-40 md:w-44 lg:w-48"
+                />
+            </div>
+            <div className="flex flex-col items-center justify-center lg:flex-row lg:items-stretch xs:w-[65%] md:w-[50%] lg:w-full">
+                <div className="w-full flex flex-col items-start justify-center lg:mr-6 lg:flex-1">
+                    <div className="flex items-start justify-center">
+                        <div className="flex items-center justify-center mr-8">
+                            <img
+                                src={locationIcon}
+                                alt="location icon"
+                                className="min-w-4 w-4 lg:min-w-5 lg:w-5"
+                            />
+                        </div>
+                        <div className="text-gray-300 -mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col items-start justify-center mt-16 lg:items-start lg:h-full lg:flex-1">
+                    <FooterContact
+                        icon={phoneIcon}
+                        text="+1-543-123-4567"
+                    />
+                    <FooterContact
+                        icon={mailIcon}
+                        text="example@fylo.com"
                     />
                 </div>
-                <div className="flex items-start justify-center">
-                    <div className="flex items-center justify-center mr-8">
-                        <img
-                            src={locationIcon}
-                            alt="location icon"
-                            className="min-w-4 w-4"
-                        />
+                <div className="w-full flex flex-col items-start justify-center my-12 text-gray-300 
+            lg:flex-row lg:items-stretch lg:flex-1">
+                    <div className="flex flex-col items-start justify-center mb-8 lg:mb-0 lg:mr-6 lg:flex-1">
+                        <FooterLink text="About Us" />
+                        <FooterLink text="Jobs" />
+                        <FooterLink text="Press" />
+                        <FooterLink text="Blog" />
                     </div>
-                    <div className="text-gray-300 -mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua
+                    <div className="flex flex-col items-start justify-center lg:justify-start lg:flex-1">
+                        <FooterLink text="Contact Us" />
+                        <FooterLink text="Terns" />
+                        <FooterLink text="Privacy" />
                     </div>
                 </div>
+                <FooterSocials />
             </div>
-            <div className="w-full flex flex-col items-start justify-center mt-16">
-                <FooterContact
-                    icon={phoneIcon}
-                    text="+1-543-123-4567"
-                />
-                <FooterContact
-                    icon={mailIcon}
-                    text="example@fylo.com"
-                />
-            </div>
-            <div className="w-full flex flex-col items-start justify-center my-12 text-gray-300">
-                <div className="flex flex-col items-start justify-center mb-8">
-                    <FooterLink text="About Us" />
-                    <FooterLink text="Jobs" />
-                    <FooterLink text="Press" />
-                    <FooterLink text="Blog" />
-                </div>
-                <div className="flex flex-col items-start justify-center">
-                    <FooterLink text="Contact Us" />
-                    <FooterLink text="Terns" />
-                    <FooterLink text="Privacy" />
-                </div>
-            </div>
-            <FooterSocials />
         </div>
     );
 }
