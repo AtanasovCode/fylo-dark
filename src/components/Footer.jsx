@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-start justify-center mt-16 lg:items-center lg:flex-1 lg:justify-start lg:mt-0 lg:mr-16">
+                <div className="w-full flex flex-col items-start justify-center mt-16 lg:items-center lg:w-auto lg:flex-1 lg:justify-start lg:mt-0 lg:mr-16">
                     <FooterContact
                         icon={phoneIcon}
                         text="+1-543-123-4567"
@@ -46,8 +46,8 @@ const Footer = () => {
                         text="example@fylo.com"
                     />
                 </div>
-                <div className="flex flex-col items-start justify-center my-12 text-gray-300 
-            lg:flex-row lg:items-stretch lg:flex-1 lg:justify-center lg:my-0">
+                <div className="w-full flex flex-col items-start justify-center my-12 text-gray-300 
+            lg:flex-row lg:w-auto lg:items-stretch lg:flex-1 lg:justify-center lg:my-0">
                     <div className="flex flex-col items-start justify-center mb-8 lg:mb-0 lg:mr-6 lg:flex-1 lg:justify-start lg:items-center">
                         <FooterLink text="About Us" />
                         <FooterLink text="Jobs" />
