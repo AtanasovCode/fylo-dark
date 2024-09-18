@@ -24,7 +24,7 @@ const Hero = () => {
                     <input 
                         type="button"
                         value="Get Started"
-                        className="w-full rounded-2xl text-center px-2 py-2 bg-blue text-md"
+                        className="w-full rounded-2xl text-center px-2 py-2 bg-blue text-md hover:cursor-pointer hover:bg-cyan"
                     />
                 </div>
             </div>

@@ -27,7 +27,7 @@ const MailPrompt = () => {
                     <input
                         type="button"
                         value="Get started for free"
-                        className="w-full bg-blue border-none rounded-3xl px-6 py-3 md:flex-1"
+                        className="w-full bg-blue border-none rounded-3xl px-6 py-3 md:flex-1 hover:cursor-pointer hover:bg-cyan"
 
                     />
                 </div>
