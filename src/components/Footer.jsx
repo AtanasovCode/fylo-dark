@@ -20,8 +20,8 @@ const Footer = () => {
                     className="w-40 md:w-44 lg:w-48"
                 />
             </div>
-            <div className="flex flex-col items-center justify-center lg:flex-row lg:items-stretch xs:w-[65%] md:w-[50%] lg:w-full">
-                <div className="w-full flex flex-col items-start justify-center lg:mr-6 lg:flex-1">
+            <div className="flex flex-col items-center justify-center lg:flex-row lg:items-stretch lg:justify-between xs:w-[65%] md:w-[50%] lg:w-full">
+                <div className="flex flex-col items-start justify-center lg:mr-6 lg:flex-1 lg:justify-start">
                     <div className="flex items-start justify-center">
                         <div className="flex items-center justify-center mr-8">
                             <img
@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex flex-col items-start justify-center mt-16 lg:items-start lg:h-full lg:flex-1">
+                <div className="flex flex-col items-start justify-center mt-16 lg:items-center lg:flex-1 lg:justify-start lg:mt-0 lg:mr-16">
                     <FooterContact
                         icon={phoneIcon}
                         text="+1-543-123-4567"
@@ -46,15 +46,15 @@ const Footer = () => {
                         text="example@fylo.com"
                     />
                 </div>
-                <div className="w-full flex flex-col items-start justify-center my-12 text-gray-300 
-            lg:flex-row lg:items-stretch lg:flex-1">
-                    <div className="flex flex-col items-start justify-center mb-8 lg:mb-0 lg:mr-6 lg:flex-1">
+                <div className="flex flex-col items-start justify-center my-12 text-gray-300 
+            lg:flex-row lg:items-stretch lg:flex-1 lg:justify-center lg:my-0">
+                    <div className="flex flex-col items-start justify-center mb-8 lg:mb-0 lg:mr-6 lg:flex-1 lg:justify-start lg:items-center">
                         <FooterLink text="About Us" />
                         <FooterLink text="Jobs" />
                         <FooterLink text="Press" />
                         <FooterLink text="Blog" />
                     </div>
-                    <div className="flex flex-col items-start justify-center lg:justify-start lg:flex-1">
+                    <div className="flex flex-col items-start justify-center lg:justify-start lg:items-center lg:flex-1">
                         <FooterLink text="Contact Us" />
                         <FooterLink text="Terns" />
                         <FooterLink text="Privacy" />

@@ -1,6 +1,6 @@
 const FooterLink = ({text}) => {
     return (
-        <div className="mb-2">
+        <div className="mb-4">
             {text}
         </div>
     );
