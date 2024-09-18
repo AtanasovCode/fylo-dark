@@ -5,7 +5,7 @@ const MailPrompt = () => {
     const [email, setEmail] = useState("");
 
     return (
-        <div className="flex items-center justify-center text-white mb-20 md:w-[60%] lg:w-[50%]">
+        <div className="flex items-center justify-center bg-dark-blue-intro text-white mb-20 md:w-[60%] lg:w-[50%]">
             <div className="flex flex-col items-center justify-center">
                 <div className="font-bold text-xl mb-2 md:text-2xl lg:text-3xl">
                     Get early access today

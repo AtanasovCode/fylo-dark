@@ -11,7 +11,7 @@ const Hero = () => {
                     className="w-full"
                 />
             </div>
-            <div className="flex items-center justfify-center flex-col lg:w-[65%]">
+            <div className="flex items-center justfify-center flex-col lg:w-[60%]">
                 <div className="font-bold text-2xl mb-8 text-center font-raleway lg:text-3xl">
                     All your files in one secure location,
                     accessible anywhere.

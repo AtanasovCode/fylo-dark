@@ -25,7 +25,7 @@ const Info = () => {
                         attachments required.
                     </div>
                 </div>
-                <div className="border-b-2 border-solid border-cyan pb-1 flex items-center justify-center text-blue">
+                <div className="border-b-2 border-solid border-cyan pb-1 flex items-center justify-center text-blue hover:cursor-pointer">
                     See how Fylo works
                     <div className="flex items-center justify-center ml-2 w-4">
                         <img 
