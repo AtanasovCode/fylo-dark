@@ -16,7 +16,7 @@ const Quote = ({
                 <img 
                     src={icon}
                     alt="decorative quote icon"
-                    className="w-6 lg:w-14 lg:z-0"
+                    className="w-6 lg:w-10 lg:z-0"
                 />
             </div>
             <div className="text-gray-400 mb-6">
