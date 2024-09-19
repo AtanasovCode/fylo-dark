@@ -3,7 +3,7 @@ import heroImage from '../assets/images/illustration-intro.png';
 
 const Hero = () => {
     return (
-        <div className="w-full flex flex-col items-center justify-center py-12 mb-12 text-white sm:w-[80%] md:w-[70%] lg:w-[55%] lg:mb-20">
+        <div className="w-full flex flex-col items-center justify-center py-12 mb-12 text-white sm:w-[80%] md:w-[70%] lg:w-[75%] lg:mb-32">
             <div className="w-[100%] flex items-center justify-center mb-12 lg:w-[70%]">
                 <img
                     src={heroImage}
@@ -12,7 +12,7 @@ const Hero = () => {
                 />
             </div>
             <div className="flex items-center justfify-center flex-col lg:w-[60%]">
-                <div className="font-bold text-2xl mb-8 text-center font-raleway lg:text-3xl">
+                <div className="font-bold text-2xl mb-8 text-center font-raleway lg:text-4xl">
                     All your files in one secure location,
                     accessible anywhere.
                 </div>
