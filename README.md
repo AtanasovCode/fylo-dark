@@ -30,4 +30,4 @@ Users should be able to:
 
 ### Links
 
-[Live Preview 👉](https://fylo-home-fm.netlify.app)
+Live Preview 👉 [fylo-home](https://fylo-home-fm.netlify.app)
