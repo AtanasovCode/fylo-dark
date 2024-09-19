@@ -10,7 +10,7 @@ const Quote = ({
 }) => {
     return (
         <div className="p-8 relative flex flex-1 flex-col items-start justify-center bg-dark-blue-testimonials text-white mb-8 rounded-md z-10
-        lg:mb-0 lg:mx-2 lg:p-6 xl:mx-5
+        lg:mb-0 lg:mx-1 lg:p-4 xl:mx-5
         ">
             <div className={`${showQuote ? "absolute -top-[9%] left-4 lg:-left-2 lg:-top-[14%] lg:z-0" : "hidden"}`}>
                 <img 
@@ -19,11 +19,11 @@ const Quote = ({
                     className="w-6 lg:w-14 lg:z-0"
                 />
             </div>
-            <div className="text-gray-300 mb-6">
+            <div className="text-gray-400 mb-6">
                 {quote}
             </div>
             <div className="flex items-center justify-center">
-                <div className="flex items-center justify-center mr-4 w-12 rounded-full overflow-hidden">
+                <div className="flex items-center justify-center mr-4 w-8 rounded-full overflow-hidden">
                     <img 
                         src={photo}
                         alt="profile photo"
@@ -31,7 +31,7 @@ const Quote = ({
                     />
                 </div>
                 <div className="flex flex-col items-start justify-center">
-                    <div className="font-semibold mb-1 text-md">
+                    <div className="font-semibold mb-1">
                         {name}
                     </div>
                     <div className="text-gray-300 text-sm">

@@ -17,7 +17,7 @@ const Feature = ({
             <div className="text-lg font-bold mb-2 text-center">
                 {title}
             </div>
-            <div className="text-center text-gray-300">
+            <div className="text-center text-gray-400">
                 {text}
             </div>
         </div>
