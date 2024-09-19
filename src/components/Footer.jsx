@@ -10,8 +10,8 @@ import FooterSocials from './FooterSocials';
 
 const Footer = () => {
     return (
-        <div className="w-full p-4 flex flex-col items-center justify-center bg-dark-blue-footer text-white
-        md:p-6 lg:p-8
+        <div className="w-full px-4 py-6 flex flex-col items-center justify-center bg-dark-blue-footer text-white
+        md:p-6 lg:py-20 lg:px-8
         ">
             <div className="w-full flex items-center justify-start w-22 mb-12 xs:justify-center lg:justify-start">
                 <img

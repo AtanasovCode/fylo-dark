@@ -10,7 +10,7 @@ const Quote = ({
 }) => {
     return (
         <div className="p-8 relative flex flex-1 flex-col items-start justify-center bg-dark-blue-testimonials text-white mb-8 rounded-md z-10
-        lg:mb-0 lg:mx-1 lg:p-4 xl:mx-5
+        lg:mb-0 lg:mx-2 lg:p-4 xl:mx-5
         ">
             <div className={`${showQuote ? "absolute -top-[9%] left-4 lg:-left-2 lg:-top-[14%] lg:z-0" : "hidden"}`}>
                 <img 
